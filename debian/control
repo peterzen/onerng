@@ -1,0 +1,16 @@
+Source: onerng
+Section: contrib
+Priority: extra
+Maintainer: Paul Campbell <paul@taniwha.com>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev
+Standards-Version: 3.9.4
+Homepage: http://www.onerng.info
+
+Package: onerng
+Architecture: all
+Depends: rng-tools, udev, python, python-gnupg, gnupg, at, openssl
+Description: Driver for the OneRNG open source hardware entropy generator
+	OneRNG is an open source hardware entropy generator in a USB dongle - it does not
+	require any special kernel drivers but does need a set of udev and sstem scripts to start the
+	rmgd daemon (from the rng-tools package) when the device is plugged in
+

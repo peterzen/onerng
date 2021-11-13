@@ -1,0 +1,6 @@
+fc12d514752714d947ada5f96fd4e726  lib/udev/rules.d/79-onerng.rules
+2f80f5ebc2a843c51575ad6244fd68e2  sbin/onerng.sh
+4aa006e7c7c44a493cd092773241e15c  sbin/onerng_verify.py
+7dd2bfeb61a68b63d38e5d6e71f4b4c4  usr/share/doc/onerng/README
+9a1ae1b757e0a0fc8cbf6587c601d631  usr/share/doc/onerng/changelog.Debian.gz
+3228d2db4aff9052b8997e89749423b6  usr/share/doc/onerng/copyright

@@ -1,0 +1,17 @@
+onerng (3.6-1) unstable; urgency=low
+
+  * flush entropy pool after testing firmware Sun,  Oct 1 2017 21:02:34 +1200
+  * now stops system default rngd if running   Sun,  Jan 22 2017 22:12:22 +1200
+  * add option to devalue provided entropy   Sun,  Jan 15 2017 15:52:31 +1200
+  * add option to feed more data to /dev/urandom   Sun,  Jan 15 2017 15:52:31 +1200
+  * Add option to whiten input to rngd   Sun,  21 Jun 2015 15:15:00 +1200
+  * Changes to allow time for firmware to be    Mon,  20 Apr 2015 18:15:00 +1200
+  *          copied on heavily loaded systems   Mon,  20 Apr 2015 18:15:00 +1200
+  * Made python code more tolerant of versions   Sun,  19 Apr 2015 17:00:00 +1200
+  * add change to help with Gentoo device removal  Sun,  19 Apr 2015 17:00:00 +1200
+  * disable default rngd generators 	 Fri, 10 Apr 2015 16:49:23 +1200
+  * support for firmware version 3	 Thu, 26 Mar 2015 13:19:26 +1200
+  * Initial release 			Mon, 05 May 2014 21:14:19 +1200
+ -- Paul Campbell <paul@taniwha.com>  19 Apr 2015 17:00:00 +1200
+
+

@@ -1,0 +1,17 @@
+#!/bin/sh
+# postinst script for webpy-example
+
+    set -e
+
+    APP_NAME=myapp
+
+    case "$1" in
+       configure|install|upgrade)
+		udevadm control --reload-rules
+        	;;
+    esac
+
+exit 0
+
+
+ 

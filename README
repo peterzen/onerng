@@ -1,0 +1,8 @@
+INTRODUCTION
+============
+
+OneRNG is an open source hardware entropy generator in a USB dongle - it does not
+require any special kernel drivers but does need a set of udev and sstem scripts to start the
+rmgd daemon (from the rng-tools package) when the device is plugged in
+
+More information can be found at: http://www.onerng.info
